@@ -47,7 +47,7 @@ public class DynamicArray {
         }
         array[size - 1] = 0;  // Clear last element
         size--;
-        if (size > 0 && size == capacity / 4) {
+        if (size > 0 && size == capacity / 3) {
             shrink();
         }
     }
